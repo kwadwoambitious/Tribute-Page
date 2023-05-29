@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Lexend+Deca&family=Nunito:ital,wght@1,200&family=Open+Sans&family=Poppins&family=Quicksand:wght@300;500&family=Raleway:wght@400;700&family=Tilt+Neon&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', 'Sans-serif';
+}
+html{
+    scroll-behavior: smooth;
+}
+.italic-texts{
+    font-style: italic;
+}
+h1{
+    font-size: 2.4rem;
+    font-family: 'Poppins', 'Sans-serif';
+    letter-spacing: 1px;
+}
+main{
+    background-color: rgba(220, 220, 220, 0.418);
+    margin: 30px 10px;
+    border-radius: 5px;
+    padding: 20px 15px;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+.desc{
+    margin-top: -10px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.desc2{
+    margin: 50px 0;
+}
+.desc3{
+    font-weight: 500;
+    font-size: 17px;
+}
+span{
+    font-weight: bold;
+}
+#img-div{
+    background-color: white;
+    padding: 10px;
+}
+.center-align{
+    margin: 0 auto;
+}
+.text-align-center{
+    text-align: center;
+}
+.about-width{
+    width: 90%;
+    max-width: 45%;
+    margin: 0 auto;
+}
+li{
+    margin:  15px 0;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+}
+li:last-child{
+    margin-bottom: 50px;
+}
+.footer-link{
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.last-p1{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+}
+.writer{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 17px;
+}
+@media (max-width: 600px){
+    .about-width{
+        width: 90%;
+        max-width: 100%;
+    }
+    main{
+        margin: 0;
+    }
+}
